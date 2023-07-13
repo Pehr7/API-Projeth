@@ -1,0 +1,38 @@
+Trocar Pagina de Abertura  
+MainPage = new NavigationPage (new MainPage());
+
+
+
+
+Exticao Pagina inicial 
+
+----------------------------------------------------------------------------------------------------------
+ <Label Text="Projeto Sao Camilo" TextColor="White" FontSize="Medium" HorizontalOptions="Center"/>
+
+        <Entry x:Name="txtNome" Keyboard="Chat" ReturnType="Default"/>
+
+        <Button Text="Entra" Clicked="Button_Clicked"/>
+        
+
+        <Button x:Name="btnImagem" Clicked="btnImagem_Clicked" Text="Imagem"
+               BackgroundColor="Transparent" BorderColor="Black" 
+                CornerRadius="15" HorizontalOptions="CenterAndExpand"/>
+
+        <Button x:Name="btnTexto" Clicked="btnTexto_Clicked" Text="Texto"
+                BackgroundColor="Transparent" BorderColor="Black" 
+                CornerRadius="15" HorizontalOptions="CenterAndExpand"/>
+
+
+
+Exticao para button
+
+---------------------------------------------------------------------------------------------------------
+
+DisplayAlert("Teste OK", "Ola, " + txtNome.Text + "!", "Fechar")
+
+        
+            Navigation.PushAsync(new Imagem());
+       
+        
+            var Navegacao = new Texto();
+            Navigation.PushModalAsync(Navegacao);  
