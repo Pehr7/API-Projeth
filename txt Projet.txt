@@ -1,8 +1,5 @@
-Trocar Pagina de Abertura  
+\\ Trocar Pagina de Abertura  
 MainPage = new NavigationPage (new MainPage());
-
-
-
 
 Exticao Pagina inicial 
 
@@ -24,7 +21,7 @@ Exticao Pagina inicial
 
 
 
-Exticao para button
+\\ Exticao para button
 
 ---------------------------------------------------------------------------------------------------------
 
